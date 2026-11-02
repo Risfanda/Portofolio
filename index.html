@@ -99,7 +99,6 @@
             <div class="flex items-center justify-between h-16 sm:h-20">
                 <!-- Brand Logo / Photo Avatar -->
                 <a href="#hero" class="flex items-center gap-3 group">
-                    <!-- FOTO AVATAR NAVIGASI -->
                     <div class="relative w-10 h-10 rounded-xl overflow-hidden ring-2 ring-brand-500/50 group-hover:ring-brand-500 group-hover:scale-105 transition-all">
                         <img 
                             src="DBB1E110-889D-4331-B640-D32D03D0E4E9.JPG" 
@@ -143,21 +142,13 @@
             x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0"
             x-transition:leave-end="opacity-0 -translate-y-2"
             class="md:hidden glass-panel border-b border-white/10 px-4 pt-2 pb-6 space-y-2">
-            <a href="#about" @click="mobileMenuOpen = false"
-                class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Tentang</a>
-            <a href="#education" @click="mobileMenuOpen = false"
-                class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Pendidikan</a>
-            <a href="#skills" @click="mobileMenuOpen = false"
-                class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Keahlian</a>
-            <a href="#projects" @click="mobileMenuOpen = false"
-                class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Proyek</a>
-            <a href="#experience" @click="mobileMenuOpen = false"
-                class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Pengalaman</a>
-            <a href="#certifications" @click="mobileMenuOpen = false"
-                class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Sertifikasi</a>
-            <a href="#contact" @click="mobileMenuOpen = false"
-                class="block w-full text-center py-2.5 mt-4 font-semibold text-white bg-brand-600 rounded-xl">Hubungi
-                Saya</a>
+            <a href="#about" @click="mobileMenuOpen = false" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Tentang</a>
+            <a href="#education" @click="mobileMenuOpen = false" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Pendidikan</a>
+            <a href="#skills" @click="mobileMenuOpen = false" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Keahlian</a>
+            <a href="#projects" @click="mobileMenuOpen = false" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Proyek</a>
+            <a href="#experience" @click="mobileMenuOpen = false" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Pengalaman</a>
+            <a href="#certifications" @click="mobileMenuOpen = false" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-300 hover:text-white hover:bg-white/5">Sertifikasi</a>
+            <a href="#contact" @click="mobileMenuOpen = false" class="block w-full text-center py-2.5 mt-4 font-semibold text-white bg-brand-600 rounded-xl">Hubungi Saya</a>
         </div>
     </header>
 
@@ -168,17 +159,13 @@
         <section id="hero" class="min-h-[calc(100vh-5rem)] flex items-center justify-center py-12 sm:py-20 px-4 sm:px-6 lg:px-8 relative">
             <div class="max-w-5xl mx-auto text-center space-y-8">
                 
-                <!-- Availability Status Badge -->
                 <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel border-brand-500/30 text-brand-500 text-xs sm:text-sm font-medium">
                     <span class="w-2.5 h-2.5 rounded-full bg-brand-500 animate-pulse"></span>
                     <span>Fresh Graduate S1 Teknik Informatika • Open for Opportunities</span>
                 </div>
 
-                <!-- FOTO PROFIL (PRESISI DI TENGAH) -->
                 <div class="relative w-48 h-48 sm:w-60 sm:h-60 mx-auto">
-                    <!-- Ring/Efek Frame Glowing -->
                     <div class="absolute -inset-1.5 rounded-full bg-gradient-to-r from-brand-500 via-teal-400 to-accent-500 blur-lg opacity-80 animate-pulse"></div>
-                    <!-- Elemen Foto -->
                     <img 
                         src="SML_7807-dikompresi.jpg" 
                         alt="Risfanda Audiarrahman Charisma" 
@@ -186,7 +173,6 @@
                     >
                 </div>
 
-                <!-- Main Name & Title Headline -->
                 <div class="space-y-4">
                     <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight">
                         RISFANDA AUDIARRAHMAN <br class="hidden sm:inline">
@@ -197,14 +183,12 @@
                     </p>
                 </div>
 
-                <!-- Personal Brief Intro -->
                 <p class="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
                     Lulusan Baru Teknik Informatika dari Universitas Mataram (IPK 3.58) dengan pengalaman praktis dalam
                     pengembangan web fullstack (Next.js, Supabase, PHP & Laravel) serta analisis data menggunakan algoritma Machine
                     Learning (K-Means Clustering).
                 </p>
 
-                <!-- Location & Quick Contact Pills -->
                 <div class="flex flex-wrap items-center justify-center gap-4 text-sm text-gray-400">
                     <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 border border-white/5">
                         <i data-lucide="map-pin" class="w-4 h-4 text-brand-500"></i>
@@ -229,7 +213,6 @@
                     </a>
                 </div>
 
-                <!-- Call to Action Buttons -->
                 <div class="flex flex-wrap items-center justify-center gap-4 pt-4">
                     <a href="#projects"
                         class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-brand-600 to-accent-600 hover:from-brand-500 hover:to-accent-500 text-white font-semibold shadow-lg shadow-brand-600/30 hover:-translate-y-0.5 transition flex items-center gap-2">
@@ -249,13 +232,9 @@
         <!-- ABOUT SECTION -->
         <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
             <div class="glass-panel rounded-3xl p-6 sm:p-10 border border-white/10 relative overflow-hidden">
-                <div
-                    class="absolute -right-10 -bottom-10 w-64 h-64 bg-brand-500/10 rounded-full blur-3xl pointer-events-none">
-                </div>
+                <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-
-                    <!-- Left: Profile Summary -->
                     <div class="lg:col-span-5 space-y-6">
                         <div class="inline-flex items-center gap-2 text-brand-500 font-semibold text-sm">
                             <i data-lucide="user" class="w-4 h-4"></i>
@@ -283,7 +262,6 @@
                         </div>
                     </div>
 
-                    <!-- Right: Thesis Focus Card -->
                     <div class="lg:col-span-7">
                         <div class="p-6 sm:p-8 rounded-2xl bg-darkcard/80 border border-brand-500/20 space-y-4">
                             <div class="flex items-center gap-3">
@@ -292,32 +270,26 @@
                                 </div>
                                 <div>
                                     <h3 class="font-bold text-white text-lg">Penelitian Tugas Akhir / Skripsi</h3>
-                                    <p class="text-xs text-brand-400 font-medium">Fokus Keamanan Digital & Machine
-                                        Learning</p>
+                                    <p class="text-xs text-brand-400 font-medium">Fokus Keamanan Digital & Machine Learning</p>
                                 </div>
                             </div>
 
-                            <blockquote
-                                class="text-gray-300 italic text-sm sm:text-base border-l-2 border-brand-500 pl-4 py-1">
-                                "Analisis Clustering Tingkat Kerentanan Mahasiswa terhadap Ancaman Fraud One-Time
-                                Password (OTP) pada Transaksi Digital Menggunakan Metode K-Means"
+                            <blockquote class="text-gray-300 italic text-sm sm:text-base border-l-2 border-brand-500 pl-4 py-1">
+                                "Analisis Clustering Tingkat Kerentanan Mahasiswa terhadap Ancaman Fraud One-Time Password (OTP) pada Transaksi Digital Menggunakan Metode K-Means"
                             </blockquote>
 
                             <ul class="space-y-2 text-xs sm:text-sm text-gray-400 pt-2">
                                 <li class="flex items-start gap-2">
                                     <i data-lucide="check-circle-2" class="w-4 h-4 text-brand-500 shrink-0 mt-0.5"></i>
-                                    <span>Mengidentifikasi dan mengelompokkan pola kerentanan mahasiswa terhadap
-                                        kejahatan manipulasi sosial penipuan OTP.</span>
+                                    <span>Mengidentifikasi dan mengelompokkan pola kerentanan mahasiswa terhadap kejahatan manipulasi sosial penipuan OTP.</span>
                                 </li>
                                 <li class="flex items-start gap-2">
                                     <i data-lucide="check-circle-2" class="w-4 h-4 text-brand-500 shrink-0 mt-0.5"></i>
-                                    <span>Mengolah data survei perilaku dengan metode Unsupervised Learning (K-Means)
-                                        untuk mendukung strategi edukasi kesadaran keamanan digital.</span>
+                                    <span>Mengolah data survei perilaku dengan metode Unsupervised Learning (K-Means) untuk mendukung strategi edukasi kesadaran keamanan digital.</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -333,22 +305,16 @@
             </div>
 
             <div class="max-w-4xl mx-auto">
-                <div
-                    class="glass-panel rounded-2xl p-6 sm:p-8 border border-white/10 relative hover:border-brand-500/40 transition">
-                    <div
-                        class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-white/10">
+                <div class="glass-panel rounded-2xl p-6 sm:p-8 border border-white/10 relative hover:border-brand-500/40 transition">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-white/10">
                         <div>
-                            <span
-                                class="inline-block px-3 py-1 text-xs font-semibold bg-brand-500/10 text-brand-400 rounded-full mb-2">2022
-                                – 2026</span>
-                            <h3 class="text-xl sm:text-2xl font-bold text-white">Bachelor of Informatics Engineering
-                            </h3>
+                            <span class="inline-block px-3 py-1 text-xs font-semibold bg-brand-500/10 text-brand-400 rounded-full mb-2">2022 – 2026</span>
+                            <h3 class="text-xl sm:text-2xl font-bold text-white">Bachelor of Informatics Engineering</h3>
                             <p class="text-gray-400 font-medium">Universitas Mataram — Fakultas Teknik</p>
                         </div>
                         <div class="text-left md:text-right">
                             <span class="text-xs text-gray-400 block">Indeks Prestasi Kumulatif (IPK)</span>
-                            <span class="text-2xl font-extrabold text-brand-500">3.58 <span
-                                    class="text-sm font-normal text-gray-400">/ 4.00</span></span>
+                            <span class="text-2xl font-extrabold text-brand-500">3.58 <span class="text-sm font-normal text-gray-400">/ 4.00</span></span>
                         </div>
                     </div>
 
@@ -385,89 +351,59 @@
                     <span>KAPABILITAS TEKNIS</span>
                 </div>
                 <h2 class="text-3xl sm:text-4xl font-bold text-white">Skills & Tech Stack</h2>
-                <p class="text-gray-400 text-sm sm:text-base">Penguasaan teknologi pengembangan aplikasi web, basis
-                    data, serta analisis data.</p>
+                <p class="text-gray-400 text-sm sm:text-base">Penguasaan teknologi pengembangan aplikasi web, basis data, serta analisis data.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-
                 <!-- Web Development Card -->
-                <div
-                    class="glass-panel p-6 rounded-2xl border border-white/10 hover:border-brand-500/50 transition duration-300 group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-500 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                <div class="glass-panel p-6 rounded-2xl border border-white/10 hover:border-brand-500/50 transition duration-300 group">
+                    <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-500 flex items-center justify-center mb-6 group-hover:scale-110 transition">
                         <i data-lucide="code" class="w-6 h-6"></i>
                     </div>
                     <h3 class="text-lg font-bold text-white mb-4">Web Development</h3>
                     <div class="flex flex-wrap gap-2">
-                        <span
-                            class="px-3 py-1 bg-brand-500/20 text-brand-300 text-xs font-semibold rounded-lg border border-brand-500/30">Next.js
-                            14/15</span>
-                        <span
-                            class="px-3 py-1 bg-brand-500/20 text-brand-300 text-xs font-semibold rounded-lg border border-brand-500/30">Laravel
-                            13</span>
-                        <span
-                            class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">TypeScript</span>
-                        <span
-                            class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">PHP</span>
-                        <span
-                            class="px-3 py-1 bg-accent-500/20 text-accent-300 text-xs font-semibold rounded-lg border border-accent-500/30">Tailwind
-                            CSS</span>
-                        <span
-                            class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">JavaScript</span>
-                        <span
-                            class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">Alpine.js</span>
+                        <span class="px-3 py-1 bg-brand-500/20 text-brand-300 text-xs font-semibold rounded-lg border border-brand-500/30">Next.js 14/15</span>
+                        <span class="px-3 py-1 bg-brand-500/20 text-brand-300 text-xs font-semibold rounded-lg border border-brand-500/30">Laravel 13</span>
+                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">TypeScript</span>
+                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">PHP</span>
+                        <span class="px-3 py-1 bg-accent-500/20 text-accent-300 text-xs font-semibold rounded-lg border border-accent-500/30">Tailwind CSS</span>
+                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">JavaScript</span>
+                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">Alpine.js</span>
                     </div>
                 </div>
 
                 <!-- Database & Backend Card -->
-                <div
-                    class="glass-panel p-6 rounded-2xl border border-white/10 hover:border-accent-500/50 transition duration-300 group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-accent-500/10 text-accent-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                <div class="glass-panel p-6 rounded-2xl border border-white/10 hover:border-accent-500/50 transition duration-300 group">
+                    <div class="w-12 h-12 rounded-xl bg-accent-500/10 text-accent-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
                         <i data-lucide="server" class="w-6 h-6"></i>
                     </div>
                     <h3 class="text-lg font-bold text-white mb-4">Database & Cloud BaaS</h3>
                     <div class="flex flex-wrap gap-2">
-                        <span
-                            class="px-3 py-1 bg-accent-500/20 text-accent-300 text-xs font-semibold rounded-lg border border-accent-500/30">Supabase</span>
-                        <span
-                            class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">PostgreSQL</span>
-                        <span
-                            class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">MySQL</span>
-                        <span
-                            class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">Row Level Security (RLS)</span>
-                        <span
-                            class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">Supabase Auth & Storage</span>
+                        <span class="px-3 py-1 bg-accent-500/20 text-accent-300 text-xs font-semibold rounded-lg border border-accent-500/30">Supabase</span>
+                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">PostgreSQL</span>
+                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">MySQL</span>
+                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">Row Level Security (RLS)</span>
+                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">Supabase Auth & Storage</span>
                     </div>
                 </div>
 
                 <!-- Data Analytics & ML Card -->
-                <div
-                    class="glass-panel p-6 rounded-2xl border border-white/10 hover:border-purple-500/50 transition duration-300 group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                <div class="glass-panel p-6 rounded-2xl border border-white/10 hover:border-purple-500/50 transition duration-300 group">
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
                         <i data-lucide="line-chart" class="w-6 h-6"></i>
                     </div>
                     <h3 class="text-lg font-bold text-white mb-4">Data & Machine Learning</h3>
                     <div class="flex flex-wrap gap-2">
-                        <span
-                            class="px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-semibold rounded-lg border border-purple-500/30">Python</span>
-                        <span
-                            class="px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-semibold rounded-lg border border-purple-500/30">K-Means
-                            Clustering</span>
-                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">Data
-                            Analysis</span>
-                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">Data
-                            Preprocessing</span>
+                        <span class="px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-semibold rounded-lg border border-purple-500/30">Python</span>
+                        <span class="px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-semibold rounded-lg border border-purple-500/30">K-Means Clustering</span>
+                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">Data Analysis</span>
+                        <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">Data Preprocessing</span>
                     </div>
                 </div>
 
                 <!-- Tools & Workflow Card -->
-                <div
-                    class="glass-panel p-6 rounded-2xl border border-white/10 hover:border-amber-500/50 transition duration-300 group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                <div class="glass-panel p-6 rounded-2xl border border-white/10 hover:border-amber-500/50 transition duration-300 group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
                         <i data-lucide="wrench" class="w-6 h-6"></i>
                     </div>
                     <h3 class="text-lg font-bold text-white mb-4">Tools & Deployment</h3>
@@ -478,7 +414,6 @@
                         <span class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/5">macOS Environment</span>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -494,8 +429,7 @@
                 </div>
 
                 <!-- Project Filter Buttons -->
-                <div
-                    class="flex flex-wrap gap-2 bg-white/5 p-1.5 rounded-2xl border border-white/10 self-start md:self-auto">
+                <div class="flex flex-wrap gap-2 bg-white/5 p-1.5 rounded-2xl border border-white/10 self-start md:self-auto">
                     <button @click="projectFilter = 'all'"
                         :class="projectFilter === 'all' ? 'bg-brand-600 text-white shadow-md' : 'text-gray-400 hover:text-white'"
                         class="px-4 py-2 text-xs font-semibold rounded-xl transition">Semua Proyek</button>
@@ -514,18 +448,40 @@
             <!-- Projects Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                <!-- Project 0: BP3MI Protect (PROYEK BARU) -->
+                <!-- Project 0: TixZone UI/UX -->
+                <div x-show="projectFilter === 'all' || projectFilter === 'uiux'" x-transition
+                    class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-brand-500/40 transition duration-300 flex flex-col group">
+                    <div class="h-48 bg-gradient-to-br from-indigo-950 via-blue-900 to-slate-900 flex items-center justify-center p-6 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+                        <i data-lucide="ticket" class="w-16 h-16 text-indigo-400 group-hover:scale-110 transition duration-300"></i>
+                        <span class="absolute top-4 right-4 px-3 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-semibold rounded-full border border-indigo-500/30">UI/UX Case Study</span>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition">TixZone – Platform Penjualan Tiket Event</h3>
+                            <p class="text-xs text-indigo-400 font-semibold mt-1">Figma Design, Interactive Prototype (Stitch), User Flow</p>
+                            <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+                                Perancangan UI/UX antarmuka website e-ticketing modern untuk memudahkan eksplorasi acara, pemesanan multi-kategori tiket, hingga e-ticket QR Code.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+                            <span class="text-xs text-gray-500">UI/UX Design • 2026</span>
+                            <button @click="openProjectModal('tixzone-uiux')"
+                                class="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-400 hover:text-brand-300">
+                                <span>Detail Spesifikasi</span>
+                                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 0.5: BP3MI Protect -->
                 <div x-show="projectFilter === 'all' || projectFilter === 'web'" x-transition
                     class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-brand-500/40 transition duration-300 flex flex-col group">
-                    <div
-                        class="h-48 bg-gradient-to-br from-blue-950 to-slate-900 flex items-center justify-center p-6 relative overflow-hidden">
-                        <div
-                            class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition duration-300">
-                        </div>
-                        <i data-lucide="shield-alert"
-                            class="w-16 h-16 text-blue-400 group-hover:scale-110 transition duration-300"></i>
-                        <span
-                            class="absolute top-4 right-4 px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-semibold rounded-full border border-blue-500/30">Fullstack Serverless</span>
+                    <div class="h-48 bg-gradient-to-br from-blue-950 to-slate-900 flex items-center justify-center p-6 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+                        <i data-lucide="shield-alert" class="w-16 h-16 text-blue-400 group-hover:scale-110 transition duration-300"></i>
+                        <span class="absolute top-4 right-4 px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-semibold rounded-full border border-blue-500/30">Fullstack Serverless</span>
                     </div>
                     <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
                         <div>
@@ -549,26 +505,17 @@
                 <!-- Project 1: Kopi Senja -->
                 <div x-show="projectFilter === 'all' || projectFilter === 'web'" x-transition
                     class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-brand-500/40 transition duration-300 flex flex-col group">
-                    <div
-                        class="h-48 bg-gradient-to-br from-amber-900/40 to-stone-900 flex items-center justify-center p-6 relative overflow-hidden">
-                        <div
-                            class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition duration-300">
-                        </div>
-                        <i data-lucide="coffee"
-                            class="w-16 h-16 text-amber-500/80 group-hover:scale-110 transition duration-300"></i>
-                        <span
-                            class="absolute top-4 right-4 px-3 py-1 bg-amber-500/20 text-amber-300 text-xs font-semibold rounded-full border border-amber-500/30">Fullstack
-                            Web App</span>
+                    <div class="h-48 bg-gradient-to-br from-amber-900/40 to-stone-900 flex items-center justify-center p-6 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+                        <i data-lucide="coffee" class="w-16 h-16 text-amber-500/80 group-hover:scale-110 transition duration-300"></i>
+                        <span class="absolute top-4 right-4 px-3 py-1 bg-amber-500/20 text-amber-300 text-xs font-semibold rounded-full border border-amber-500/30">Fullstack Web App</span>
                     </div>
                     <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
                         <div>
-                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition">Kopi Senja –
-                                Artisan Coffee Roastery</h3>
-                            <p class="text-xs text-brand-500 font-semibold mt-1">Laravel 13, MySQL, Tailwind CSS,
-                                Alpine.js</p>
+                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition">Kopi Senja – Artisan Coffee Roastery</h3>
+                            <p class="text-xs text-brand-500 font-semibold mt-1">Laravel 13, MySQL, Tailwind CSS, Alpine.js</p>
                             <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                                E-commerce kopi artisan dengan arsitektur keranjang belanja persistent berbasis Eloquent
-                                ORM, menggantikan localStorage untuk menjamin isolasi data user dan reliabilitas sesi.
+                                E-commerce kopi artisan dengan arsitektur keranjang belanja persistent berbasis Eloquent ORM, menggantikan localStorage untuk menjamin isolasi data user dan reliabilitas sesi.
                             </p>
                         </div>
                         <div class="pt-4 border-t border-white/10 flex items-center justify-between">
@@ -585,26 +532,17 @@
                 <!-- Project 3: Research OTP Fraud -->
                 <div x-show="projectFilter === 'all' || projectFilter === 'ml'" x-transition
                     class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-brand-500/40 transition duration-300 flex flex-col group">
-                    <div
-                        class="h-48 bg-gradient-to-br from-purple-900/40 to-slate-900 flex items-center justify-center p-6 relative overflow-hidden">
-                        <div
-                            class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition duration-300">
-                        </div>
-                        <i data-lucide="shield-check"
-                            class="w-16 h-16 text-purple-400/80 group-hover:scale-110 transition duration-300"></i>
-                        <span
-                            class="absolute top-4 right-4 px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-semibold rounded-full border border-purple-500/30">Data
-                            Science & ML</span>
+                    <div class="h-48 bg-gradient-to-br from-purple-900/40 to-slate-900 flex items-center justify-center p-6 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+                        <i data-lucide="shield-check" class="w-16 h-16 text-purple-400/80 group-hover:scale-110 transition duration-300"></i>
+                        <span class="absolute top-4 right-4 px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-semibold rounded-full border border-purple-500/30">Data Science & ML</span>
                     </div>
                     <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
                         <div>
-                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition">Riset
-                                Clustering Kerentanan Fraud OTP</h3>
-                            <p class="text-xs text-purple-400 font-semibold mt-1">Python, K-Means Clustering, Data
-                                Analytics</p>
+                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition">Riset Clustering Kerentanan Fraud OTP</h3>
+                            <p class="text-xs text-purple-400 font-semibold mt-1">Python, K-Means Clustering, Data Analytics</p>
                             <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                                Analisis data survei perilaku menggunakan unsupervised machine learning untuk
-                                mengelompokkan tingkat risiko kerentanan mahasiswa terhadap kejahatan OTP Fraud.
+                                Analisis data survei perilaku menggunakan unsupervised machine learning untuk mengelompokkan tingkat risiko kerentanan mahasiswa terhadap kejahatan OTP Fraud.
                             </p>
                         </div>
                         <div class="pt-4 border-t border-white/10 flex items-center justify-between">
@@ -621,26 +559,17 @@
                 <!-- Project 4: Public Reward App UI/UX -->
                 <div x-show="projectFilter === 'all' || projectFilter === 'uiux'" x-transition
                     class="glass-panel rounded-3xl overflow-hidden border border-white/10 hover:border-brand-500/40 transition duration-300 flex flex-col group">
-                    <div
-                        class="h-48 bg-gradient-to-br from-emerald-900/40 to-teal-900 flex items-center justify-center p-6 relative overflow-hidden">
-                        <div
-                            class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition duration-300">
-                        </div>
-                        <i data-lucide="layout"
-                            class="w-16 h-16 text-emerald-400/80 group-hover:scale-110 transition duration-300"></i>
-                        <span
-                            class="absolute top-4 right-4 px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs font-semibold rounded-full border border-emerald-500/30">UI/UX
-                            Internship</span>
+                    <div class="h-48 bg-gradient-to-br from-emerald-900/40 to-teal-900 flex items-center justify-center p-6 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition duration-300"></div>
+                        <i data-lucide="layout" class="w-16 h-16 text-emerald-400/80 group-hover:scale-110 transition duration-300"></i>
+                        <span class="absolute top-4 right-4 px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs font-semibold rounded-full border border-emerald-500/30">UI/UX Internship</span>
                     </div>
                     <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
                         <div>
-                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition">Aplikasi
-                                Public Reward — BKD Kota Mataram</h3>
-                            <p class="text-xs text-emerald-400 font-semibold mt-1">Figma, Public Sector Accessibility
-                            </p>
+                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition">Aplikasi Public Reward — BKD Kota Mataram</h3>
+                            <p class="text-xs text-emerald-400 font-semibold mt-1">Figma, Public Sector Accessibility</p>
                             <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                                Desain antarmuka UI/UX interaktif untuk platform undian struk belanja warga Kota
-                                Mataram, dirancang khusus agar aksesibel bagi seluruh lapisan masyarakat.
+                                Desain antarmuka UI/UX interaktif untuk platform undian struk belanja warga Kota Mataram, dirancang khusus agar aksesibel bagi seluruh lapisan masyarakat.
                             </p>
                         </div>
                         <div class="pt-4 border-t border-white/10 flex items-center justify-between">
@@ -668,23 +597,16 @@
             </div>
 
             <div class="max-w-3xl mx-auto relative border-l-2 border-white/10 pl-6 sm:pl-8 space-y-12">
-
                 <div class="relative group">
-                    <!-- Marker Dot -->
-                    <div
-                        class="absolute -left-[31px] sm:-left-[39px] top-0 w-4 h-4 rounded-full bg-brand-500 ring-4 ring-darkbg group-hover:scale-125 transition">
-                    </div>
+                    <div class="absolute -left-[31px] sm:-left-[39px] top-0 w-4 h-4 rounded-full bg-brand-500 ring-4 ring-darkbg group-hover:scale-125 transition"></div>
 
                     <div class="glass-panel p-6 sm:p-8 rounded-2xl border border-white/10 space-y-4">
-                        <div
-                            class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-white/10 pb-4">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-white/10 pb-4">
                             <div>
                                 <h3 class="text-xl font-bold text-white">UI/UX Design Intern</h3>
-                                <p class="text-brand-400 font-medium text-sm">Badan Keuangan Daerah (BKD) Kota Mataram
-                                </p>
+                                <p class="text-brand-400 font-medium text-sm">Badan Keuangan Daerah (BKD) Kota Mataram</p>
                             </div>
-                            <span
-                                class="inline-block px-3 py-1 bg-white/5 text-gray-400 text-xs rounded-full border border-white/5 self-start sm:self-auto">
+                            <span class="inline-block px-3 py-1 bg-white/5 text-gray-400 text-xs rounded-full border border-white/5 self-start sm:self-auto">
                                 Mei 2025 – Juni 2025
                             </span>
                         </div>
@@ -692,24 +614,19 @@
                         <ul class="space-y-3 text-sm text-gray-300">
                             <li class="flex items-start gap-2.5">
                                 <i data-lucide="check-circle-2" class="w-4 h-4 text-brand-500 shrink-0 mt-0.5"></i>
-                                <span>Merancang antarmuka UI/UX intuitif untuk aplikasi *public reward* yang
-                                    memungkinkan masyarakat mengunggah foto struk belanja untuk keikutsertaan undian
-                                    berhadiah.</span>
+                                <span>Merancang antarmuka UI/UX intuitif untuk aplikasi *public reward* yang memungkinkan masyarakat mengunggah foto struk belanja untuk keikutsertaan undian berhadiah.</span>
                             </li>
                             <li class="flex items-start gap-2.5">
                                 <i data-lucide="check-circle-2" class="w-4 h-4 text-brand-500 shrink-0 mt-0.5"></i>
-                                <span>Menerjemahkan kebutuhan instansi Badan Keuangan Daerah menjadi *interactive user
-                                    flows* dan *wireframes* berstandar aksesibilitas publik.</span>
+                                <span>Menerjemahkan kebutuhan instansi Badan Keuangan Daerah menjadi *interactive user flows* dan *wireframes* berstandar aksesibilitas publik.</span>
                             </li>
                             <li class="flex items-start gap-2.5">
                                 <i data-lucide="check-circle-2" class="w-4 h-4 text-brand-500 shrink-0 mt-0.5"></i>
-                                <span>Mengoptimalkan alur interaksi pengguna untuk mempermudah proses upload dokumen dan
-                                    pemantauan status klaim voucher.</span>
+                                <span>Mengoptimalkan alur interaksi pengguna untuk mempermudah proses upload dokumen dan pemantauan status klaim voucher.</span>
                             </li>
                         </ul>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -724,43 +641,33 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-
-                <!-- Certification 1 -->
-                <div
-                    class="glass-panel p-6 rounded-2xl border border-white/10 flex items-start gap-4 hover:border-brand-500/40 transition">
+                <div class="glass-panel p-6 rounded-2xl border border-white/10 flex items-start gap-4 hover:border-brand-500/40 transition">
                     <div class="p-3 bg-brand-500/10 text-brand-500 rounded-xl shrink-0">
                         <i data-lucide="badge-check" class="w-6 h-6"></i>
                     </div>
                     <div class="space-y-2">
                         <span class="text-xs font-semibold text-brand-400">Juni 2026</span>
-                        <h3 class="font-bold text-white text-lg leading-snug">Certificate of Competency in Computer
-                            Science</h3>
+                        <h3 class="font-bold text-white text-lg leading-snug">Certificate of Competency in Computer Science</h3>
                         <p class="text-xs text-gray-400">Coding Studio — School of AI</p>
                         <p class="text-xs text-gray-300 pt-2 border-t border-white/5">
-                            <span class="font-semibold text-gray-200">Topik Pelatihan:</span> Algoritma Pemrograman,
-                            Mathematics for CS, Data Structures, OOP Python.
+                            <span class="font-semibold text-gray-200">Topik Pelatihan:</span> Algoritma Pemrograman, Mathematics for CS, Data Structures, OOP Python.
                         </p>
                     </div>
                 </div>
 
-                <!-- Certification 2 -->
-                <div
-                    class="glass-panel p-6 rounded-2xl border border-white/10 flex items-start gap-4 hover:border-accent-500/40 transition">
+                <div class="glass-panel p-6 rounded-2xl border border-white/10 flex items-start gap-4 hover:border-accent-500/40 transition">
                     <div class="p-3 bg-accent-500/10 text-accent-400 rounded-xl shrink-0">
                         <i data-lucide="file-check" class="w-6 h-6"></i>
                     </div>
                     <div class="space-y-2">
                         <span class="text-xs font-semibold text-accent-400">April 2026</span>
-                        <h3 class="font-bold text-white text-lg leading-snug">Intro to Data Analytics (Certified Course)
-                        </h3>
+                        <h3 class="font-bold text-white text-lg leading-snug">Intro to Data Analytics (Certified Course)</h3>
                         <p class="text-xs text-gray-400">RevoU</p>
                         <p class="text-xs text-gray-300 pt-2 border-t border-white/5">
-                            <span class="font-semibold text-gray-200">Topik Pelatihan:</span> Fundamental Analisis Data,
-                            Data Preprocessing, Data Visualization, Decision Making.
+                            <span class="font-semibold text-gray-200">Topik Pelatihan:</span> Fundamental Analisis Data, Data Preprocessing, Data Visualization, Decision Making.
                         </p>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -768,22 +675,17 @@
         <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
             <div class="glass-panel rounded-3xl p-6 sm:p-12 border border-white/10 relative overflow-hidden">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
-
                     <div class="lg:col-span-5 space-y-6">
                         <div class="inline-flex items-center gap-2 text-brand-500 font-semibold text-sm">
                             <i data-lucide="mail" class="w-4 h-4"></i>
                             <span>KONTAK LANGSUNG</span>
                         </div>
-                        <h2 class="text-3xl sm:text-4xl font-bold text-white leading-tight">
-                            Hubungi Saya
-                        </h2>
+                        <h2 class="text-3xl sm:text-4xl font-bold text-white leading-tight">Hubungi Saya</h2>
                         <p class="text-gray-400 text-sm sm:text-base leading-relaxed">
-                            Terbuka untuk posisi Fullstack Web Developer, Data Analyst, atau proyek rekayasa perangkat
-                            lunak. Silakan kirimkan pesan atau salin info kontak di bawah ini:
+                            Terbuka untuk posisi Fullstack Web Developer, Data Analyst, atau proyek rekayasa perangkat lunak. Silakan kirimkan pesan atau salin info kontak di bawah ini:
                         </p>
 
                         <div class="space-y-4 pt-2">
-                            <!-- Email Copy Pill -->
                             <div class="p-4 rounded-xl bg-white/5 border border-white/5 flex items-center justify-between cursor-pointer hover:bg-white/10 transition"
                                 @click="copyToClipboard('ifanrisfanda26@gmail.com', 'Email')">
                                 <div class="flex items-center gap-3">
@@ -798,7 +700,6 @@
                                 <i data-lucide="copy" class="w-4 h-4 text-gray-400"></i>
                             </div>
 
-                            <!-- Phone Copy Pill -->
                             <div class="p-4 rounded-xl bg-white/5 border border-white/5 flex items-center justify-between cursor-pointer hover:bg-white/10 transition"
                                 @click="copyToClipboard('085338966734', 'Nomor Telepon')">
                                 <div class="flex items-center gap-3">
@@ -815,7 +716,6 @@
                         </div>
                     </div>
 
-                    <!-- Contact Form -->
                     <div class="lg:col-span-7 bg-darkcard/90 p-6 sm:p-8 rounded-2xl border border-white/10">
                         <form @submit.prevent="submitForm()" class="space-y-4">
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -848,7 +748,6 @@
                             </button>
                         </form>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -858,12 +757,8 @@
     <!-- FOOTER -->
     <footer class="relative z-10 border-t border-white/10 py-8 px-4 text-center text-xs text-gray-500">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div>
-                © 2026 RISFANDA AUDIARRAHMAN CHARISMA. All rights reserved.
-            </div>
-            <div>
-                <a href="#hero" class="hover:text-brand-400 transition">Kembali ke Atas ↑</a>
-            </div>
+            <div>© 2026 RISFANDA AUDIARRAHMAN CHARISMA. All rights reserved.</div>
+            <div><a href="#hero" class="hover:text-brand-400 transition">Kembali ke Atas ↑</a></div>
         </div>
     </footer>
 
@@ -895,8 +790,7 @@
                 </div>
 
                 <div>
-                    <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Fitur & Pencapaian Utama
-                    </h4>
+                    <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Fitur & Pencapaian Utama</h4>
                     <ul class="space-y-2 text-sm text-gray-300">
                         <template x-for="feature in modalData.features" :key="feature">
                             <li class="flex items-start gap-2">
@@ -921,6 +815,24 @@
                     <div>
                         <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Tautan Akses</h4>
                         <div class="flex flex-wrap gap-3">
+                            <template x-if="modalData.links.journal">
+                                <a :href="modalData.links.journal" target="_blank" class="inline-flex items-center gap-1.5 px-4 py-2 bg-purple-600 hover:bg-purple-500 text-white rounded-xl text-xs font-semibold transition shadow-md">
+                                    <i data-lucide="file-text" class="w-4 h-4"></i>
+                                    <span>Baca Jurnal / Paper Skripsi</span>
+                                </a>
+                            </template>
+                            <template x-if="modalData.links.prototype">
+                                <a :href="modalData.links.prototype" target="_blank" class="inline-flex items-center gap-1.5 px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-semibold transition shadow-md">
+                                    <i data-lucide="play" class="w-4 h-4"></i>
+                                    <span>Interactive Prototype</span>
+                                </a>
+                            </template>
+                            <template x-if="modalData.links.figma">
+                                <a :href="modalData.links.figma" target="_blank" class="inline-flex items-center gap-1.5 px-4 py-2 bg-white/5 hover:bg-white/10 text-gray-200 rounded-xl text-xs font-semibold border border-white/10 transition">
+                                    <i data-lucide="figma" class="w-4 h-4"></i>
+                                    <span>Figma Canvas File</span>
+                                </a>
+                            </template>
                             <template x-if="modalData.links.demo">
                                 <a :href="modalData.links.demo" target="_blank" class="inline-flex items-center gap-1.5 px-4 py-2 bg-brand-600 hover:bg-brand-500 text-white rounded-xl text-xs font-semibold transition">
                                     <i data-lucide="external-link" class="w-4 h-4"></i>
@@ -970,6 +882,23 @@
                 formData: { name: '', email: '', subject: '', message: '' },
 
                 projectsDetail: {
+                    'tixzone-uiux': {
+                        title: 'TixZone – Platform Penjualan Tiket Event UI/UX',
+                        tag: 'UI/UX Design Case Study (2026)',
+                        description: 'Perancangan antarmuka (UI) dan pengalaman pengguna (UX) website penjualan tiket konser & event modern "TixZone". Berfokus pada penyelesaian alur pemesanan tiket yang intuitif, transparan dalam ketersediaan kuota per kategori, dan kemudahan penerbitan e-ticket digital.',
+                        features: [
+                            'Event Discovery Page: Tampilan katalog acara interaktif lengkap dengan filter kategori dan harga terjangkau.',
+                            'Multi-Category Ticket Selection: Antarmuka eksplorasi variasi tiket (Festival 1, VIP, VVIP) beserta rincian kuota ketersediaan real-time.',
+                            'Seamless Checkout & Payment Flow: Alur pengisian data pemesan dan integrasi simulasi metode pembayaran instan.',
+                            'E-Ticket & Digital QR Display: Tampilan e-ticket resmi berbentuk QR Code yang siap dipindai oleh panitia di lokasi acara.',
+                            'Interactive Dynamic Prototype: Prototipe interaktif yang dapat diuji langsung untuk merasakan pengalaman pengguna yang realistis.'
+                        ],
+                        techStack: ['Figma', 'UI/UX Design', 'Interactive Prototyping', 'User Flow', 'Design System', 'Wireframing'],
+                        links: {
+                            prototype: 'https://stitch.withgoogle.com/preview/14796760051856988866?node-id=87913dd5e23847a6a0f05ed46e393085',
+                            figma: 'https://www.figma.com/design/bnSkj7H1eiQXJwKyIBW8Ho/Untitled?node-id=0-1&t=j4tzNuHLZTfwsXXY-1'
+                        }
+                    },
                     'bp3mi-protect': {
                         title: 'BP3MI Protect – Sistem Pengaduan & Pelindungan PMI',
                         tag: 'Fullstack Serverless Web App (2026)',
@@ -1007,7 +936,10 @@
                             'Mengolah data survei perilaku dan menerapkan metode Unsupervised Machine Learning (K-Means Clustering).',
                             'Menghasilkan rekomendasi klaster kerentanan untuk mendukung program edukasi kesadaran keamanan digital.'
                         ],
-                        techStack: ['Python', 'K-Means Clustering', 'Data Preprocessing', 'Data Analytics', 'Unsupervised ML']
+                        techStack: ['Python', 'K-Means Clustering', 'Data Preprocessing', 'Data Analytics', 'Unsupervised ML'],
+                        links: {
+                            journal: 'https://drive.google.com/file/d/10R2OUVtSqGRoPkiPUGGZJK-hkrCEKsZ4/view?usp=sharing'
+                        }
                     },
                     'bkd-uiux': {
                         title: 'Public Reward Application UI/UX',
@@ -1018,7 +950,11 @@
                             'Menerjemahkan kebutuhan instansi pemerintah menjadi user flow dan wireframe interaktif.',
                             'Menerapkan standar aksesibilitas antarmuka sektor publik.'
                         ],
-                        techStack: ['Figma', 'UI/UX Design', 'Wireframing', 'User Flow Design', 'Accessibility Standards']
+                        techStack: ['Figma', 'UI/UX Design', 'Wireframing', 'User Flow Design', 'Accessibility Standards'],
+                        links: {
+                            prototype: 'https://www.figma.com/proto/JBFg4R7JHN5nFrpKEmCtzy/pkl4?node-id=73-126&t=zwgvPvlN65PiOJck-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=73%3A126&show-proto-sidebar=1',
+                            figma: 'https://www.figma.com/design/JBFg4R7JHN5nFrpKEmCtzy/pkl4?node-id=0-1&t=YwjB3fLM3ENcTOY9-1'
+                        }
                     }
                 },
 
